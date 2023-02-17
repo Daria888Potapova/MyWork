@@ -1,0 +1,96 @@
+
+.editEvents{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding: 0 4vw 0 4vw;
+    height: 100%;
+}
+
+.editEvents .editEvents_header{
+    color: #2262C6;
+}
+
+.editEvents .editEvents_form{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+
+.editEvents .editEvents_form .editEvents_hidden{
+    display: none;
+}
+
+
+.editEvents .editEvents_form input:not([type='submit']), select, textarea{
+    margin-bottom: 15px;
+    font-family: "Montserrat", serif;
+    font-size: 1.2rem;
+    padding: 15px;
+    border: 1px solid #2262C6;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgba(0,0,0,.03);
+}
+
+.editStudent .editStudent_form .editStudent_rightPart > input{
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.editEvents .editEvents_form  select{
+    cursor: pointer;
+    appearance: none;
+    overflow: hidden;
+    background: url("../Images/svg/arrowDown.svg") no-repeat right 20px center;
+    padding-right: 50px !important;
+}
+
+.editEvents .editEvents_form button{
+    width: max(350px, 20vw);
+}
+
+.editEvents .editEvents_form input[type='button'], input[type='submit'], button{
+    width: max(250px, 15vw);
+    margin-top: 10px;
+    font-family: "Montserrat", serif;
+    font-size: 1.2rem;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: #6498EA;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.editEvents .editEvents_form .editEvents_form_membersContainer p{
+    margin: 5px;
+}
+
+.editEvents .editEvents_form .editEvents_form_member:first-child  label{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.editEvents .editEvents_form .editEvents_form_member  label{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.editEvents .editEvents_form .editEvents_form_membersContainer .editEvents_form_members:hover{
+    cursor: pointer;
+    color: #6498EA;
+    text-decoration: underline;
+}
+
+.editEvents .editEvents_form .editEvents_form_membersContainer .editEvents_form_member{
+    display: inline-flex;
+    align-items: center;
+}
+
+
+
+

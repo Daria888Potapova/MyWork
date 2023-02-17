@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<svg height="30px" width="30px" id="hotel-hostel-building-resort" style="enable-background:new 0 0 15 15;" version="1.1"
+     viewBox="0 0 15 15" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+    <path d="M5,0v5H0v10h5h1h9V0H5z M5,14H1V6h4V14z M14,14H6V5V1h8V14z"/>
+    <rect height="1" width="1" x="8" y="3.5"/>
+    <rect height="1" width="1" x="11" y="3.5"/>
+    <rect height="1" width="1" x="11" y="6.5"/>
+    <rect height="1" width="1" x="8" y="6.5"/>
+</svg>

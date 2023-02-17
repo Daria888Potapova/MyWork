@@ -1,0 +1,73 @@
+
+
+.classTime{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding: 0 4vw 0 4vw;
+}
+
+.classTime .classTime_headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.classTime .classTime_headerContainer .classTime_header{
+    color: #2262C6;
+}
+
+
+.classTime .classTime_headerContainer button{
+    background-color: #2262C6;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border-radius: 40px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.classTime .classTime_table{
+    border-collapse: collapse;
+}
+
+.classTime .classTime_table .classTime_hidden{
+    display: none;
+}
+
+.classTime .classTime_table thead{
+    color: #b3b9c3;
+}
+
+.classTime .classTime_table thead tr td{
+    padding-bottom: 2vh;
+}
+
+.classTime .classTime_table tbody{
+    color: #818283;
+}
+
+.classTime .classTime_table tbody .classTime_table_FIO{
+    display: flex;
+    align-items: center;
+}
+
+.classTime .classTime_table tbody .classTime_table_FIO img{
+    height: 40px;
+    object-fit: cover;
+    width: 40px;
+    border-radius: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.classTime .classTime_table tbody tr{
+    height: 5vh;
+    border-bottom: 1px solid #f5f6f7;
+}
+
+.classTime .classTime_table tbody tr:hover{
+    cursor: pointer;
+    background-color: #e5eefd;
+}

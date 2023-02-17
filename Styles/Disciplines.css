@@ -1,0 +1,59 @@
+
+.disciplines{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 100%;
+    padding: 0 4vw 0 4vw;
+}
+
+.disciplines .disciplines_headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.disciplines .disciplines_headerContainer .disciplines_header{
+    color: #2262C6;
+}
+
+.disciplines .disciplines_headerContainer button{
+    background-color: #2262C6;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border-radius: 40px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.disciplines .disciplines_table{
+    border-collapse: collapse;
+}
+
+.disciplines .disciplines_table .disciplines_hidden{
+    display: none;
+}
+
+.disciplines .disciplines_table thead{
+    color: #b3b9c3;
+}
+
+.disciplines .disciplines_table thead tr td{
+    padding-bottom: 2vh;
+}
+
+.disciplines .disciplines_table tbody{
+    color: #818283;
+}
+
+.disciplines .disciplines_table tbody tr{
+    height: 5vh;
+    border-bottom: 1px solid #f5f6f7;
+}
+
+.disciplines .disciplines_table tbody tr:hover{
+    cursor: pointer;
+    background-color: #e5eefd;
+}
+

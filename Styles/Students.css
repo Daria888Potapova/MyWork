@@ -1,0 +1,78 @@
+
+.students{
+    display: flex;
+    flex-direction: column;
+    padding: 0 4vw 0 4vw;
+    overflow-y: auto;
+    height: 100%;
+}
+
+
+.students .students_headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.students .students_headerContainer button{
+    background-color: #2262C6;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border-radius: 40px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.students .students_headerContainer button:hover{
+    background-color: #3d73c6;
+}
+
+.students .students_headerContainer .students_header{
+    color: #2262C6;
+}
+
+.students .students_table{
+    border-collapse: collapse;
+}
+
+.students .students_table .students_hidden{
+    display: none;
+}
+
+.students .students_table thead{
+    color: #b3b9c3;
+}
+
+.students .students_table thead tr td{
+    padding-bottom: 2vh;
+}
+
+.students .students_table tbody{
+    color: #818283;
+}
+
+.students .students_table tbody tr{
+    height: 5vh;
+    border-bottom: 1px solid #f5f6f7;
+}
+
+.students .students_table tbody tr:hover{
+    cursor: pointer;
+    background-color: #e5eefd;
+}
+
+.students .students_table tbody .students_table_FIO{
+    display: flex;
+    align-items: center;
+}
+
+.students .students_table tbody .students_table_FIO img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+

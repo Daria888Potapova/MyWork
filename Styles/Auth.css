@@ -1,0 +1,87 @@
+
+.auth_background{
+    background-color: rgba(34,98,198,.3);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.auth_background .auth_logoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.auth_background .auth_logoContainer h1{
+    font-size: 3rem;
+}
+
+.auth_background .auth_logoContainer img{
+    height: max(10vh, 100px);
+    margin-right: 15px;
+}
+
+.auth_AuthContainer{
+    width: 30vw;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.auth_AuthContainer > h2{
+    margin-top: 0;
+    text-align: center;
+}
+
+.auth_AuthContainer > label{
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    color: #2262C6;
+    display: flex;
+    flex-direction: column;
+}
+
+.auth_AuthContainer .auth_error{
+    color: #d23e3d;
+}
+
+.auth_AuthContainer > input:not([type='submit']){
+    margin-bottom: 15px;
+    font-family: "Montserrat", serif;
+    font-size: 1.2rem;
+    padding: 15px;
+    border: 1px solid #2262C6;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgba(0,0,0,.03);
+}
+
+.auth_AuthContainer .auth_buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.auth_AuthContainer .auth_buttons input[type='submit']{
+    font-family: "Montserrat", serif;
+    font-size: 1.2rem;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: #6498EA;
+    color: white;
+    cursor: pointer;
+}
+
+.auth_AuthContainer .auth_buttons a{
+    color: #2262C6;
+    font-size: 1.2rem;
+    text-decoration: none;
+}

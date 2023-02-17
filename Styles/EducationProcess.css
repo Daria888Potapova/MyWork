@@ -1,0 +1,58 @@
+
+.educationProcess{
+    display: flex;
+    flex-direction: column;
+    padding: 0 4vw 0 4vw;
+    overflow-y: auto;
+}
+
+.educationProcess .educationProcess_headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.educationProcess .educationProcess_headerContainer .educationProcess_header{
+    color: #2262C6;
+}
+
+.educationProcess .educationProcess_headerContainer button{
+    background-color: #2262C6;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border-radius: 40px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.educationProcess .educationProcess_table{
+    border-collapse: collapse;
+}
+
+.educationProcess .educationProcess_table .educationProcess_hidden{
+    display: none;
+}
+
+.educationProcess .educationProcess_table thead{
+    color: #b3b9c3;
+}
+
+.educationProcess .educationProcess_table thead tr td{
+    padding-bottom: 2vh;
+}
+
+.educationProcess .educationProcess_table tbody{
+    color: #818283;
+}
+
+.educationProcess .educationProcess_table tbody tr{
+    height: 5vh;
+    border-bottom: 1px solid #f5f6f7;
+}
+
+.educationProcess .educationProcess_table tbody tr:hover{
+    cursor: pointer;
+    background-color: #e5eefd;
+}
+

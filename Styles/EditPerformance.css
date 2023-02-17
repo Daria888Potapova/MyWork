@@ -1,0 +1,92 @@
+
+.apEdit{
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding: 0 4vw 0 4vw;
+    height: 100%;
+}
+
+.apEdit .apEdit_header{
+    color: #2262C6;
+}
+
+.apEdit .apEdit_form{
+    display: flex;
+    flex-direction: column;
+    width: max(100%, 300px);
+}
+
+.apEdit .apEdit_form .infoContainer{
+    display: flex;
+    flex-direction: column;
+    width: max(15vw, 150px);
+    margin-bottom: 10px;
+}
+
+.apEdit .apEdit_form > div:not(.infoContainer){
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.apEdit .apEdit_form .apEdit_hidden{
+    display: none;
+}
+
+.apEdit .apEdit_form input:not([type='submit']), select{
+    margin-bottom: 15px;
+    font-family: "Montserrat", serif;
+    font-size: 1.2rem;
+    padding: 15px;
+    border: 1px solid #2262C6;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgba(0,0,0,.03);
+}
+
+.apEdit .apEdit_table{
+    border-collapse: collapse;
+}
+
+.apEdit .apEdit_table th{
+    text-align: start;
+}
+
+.apEdit .apEdit_table td, th{
+    border: 1px solid black;
+}
+
+.apEdit .apEdit_table td div{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.apEdit .apEdit_table td div input{
+    width: max(150px, 30%);
+    margin: 0 0 0 10px !important;
+}
+
+.apEdit .apEdit_form input[type='button'], input[type='submit']{
+    width: max(250px, 15vw);
+    margin-top: 10px;
+    font-family: "Montserrat", serif;
+    font-size: 1.2rem;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: #6498EA;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+
+
+
+

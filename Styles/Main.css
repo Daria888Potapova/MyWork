@@ -1,0 +1,41 @@
+
+/* Для Firefox  */
+* {
+    scrollbar-width: 5px;
+    scrollbar-color: #2262C6;
+}
+
+/* для Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+    width: 5px;
+    height: 7px;
+}
+*::-webkit-scrollbar-track {
+    background: rgba(0,0,0, .1);
+    border-radius: 5px;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #2262C6;
+    border-radius: 5px;
+}
+
+body{
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+.main{
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+}
+
+.main .main_content{
+    width: calc(100% - max(280px, 15vw));
+}
+
+.main .main_formRedirect{
+    display: none;
+}

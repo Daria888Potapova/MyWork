@@ -1,0 +1,106 @@
+@media only screen and (max-width: 1090px) {
+    .editUser .editUser_formPart{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.editUser{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding: 0 4vw 0 4vw;
+    height: 100%;
+}
+
+.editUser .editUser_header{
+    color: #2262C6;
+}
+
+.editUser .editUser_form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.editUser .editUser_form .editUser_hidden{
+    display: none;
+}
+
+.editUser .editUser_formPart{
+    display: flex;
+}
+
+.editUser .editUser_form div > input:not([type='submit']), div > select{
+    margin-bottom: 15px;
+    font-family: "Montserrat", serif;
+    font-size: 1.2rem;
+    padding: 15px;
+    border: 1px solid #2262C6;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgba(0,0,0,.03);
+}
+
+.editUser .editUser_form div > select{
+    cursor: pointer;
+    appearance: none;
+    overflow: hidden;
+    background: url("../Images/svg/arrowDown.svg") no-repeat right 20px center;
+    padding-right: 50px !important;
+}
+
+.editUser .editUser_form .editUser_form_InfoPart{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-size: 1.2rem;
+    margin-right: 20px;
+}
+
+.editUser .editUser_form .editUser_form_InfoPart div{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.editUser .editUser_form input[type='button'], input[type='submit']{
+    width: max(250px, 15vw);
+    margin-top: 10px;
+    font-family: "Montserrat", serif;
+    font-size: 1.2rem;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: #6498EA;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+
+.editUser .editUser_form .editUser_form_avatar{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.editUser .editUser_form .editUser_form_avatar img{
+    display: inline-block;
+    object-fit: cover;
+    width: 20em;
+    height: 20em;
+    background: silver no-repeat center;
+    margin-bottom: 25px;
+}
+
+.editUser .editUser_form .editUser_form_avatar > input{
+    background-color: transparent !important;
+    border: none !important;
+}
+
+
+
+
+

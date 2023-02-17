@@ -1,0 +1,77 @@
+
+.cp{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding: 0 4vw 0 4vw;
+}
+
+.cp .cp_header{
+    color: #2262C6;
+}
+
+.cp .cp_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.cp .cp_form .cp_formContainer{
+    display: flex;
+}
+
+.cp .cp_form .cp_form_selectContainer{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    min-width: 200px;
+}
+
+.cp .cp_form >div > label {
+    font-size: 1.2rem;
+}
+
+.cp .cp_form .cp_form_selectContainer label{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.cp .cp_form .cp_form_selectContainer select{
+    appearance: none;
+    overflow: hidden;
+    height: calc(100%);
+    background: url("../Images/svg/arrowDown.svg") no-repeat right 20px center;
+    padding-right: 50px !important;
+}
+
+.cp .cp_form .cp_form_selectContainer select, input{
+    font-family: "Montserrat", serif;
+    font-size: 1.2rem;
+    padding: 15px;
+    margin-right: 20px;
+    border: 1px solid #2262C6;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgba(0,0,0,.03);
+    cursor: pointer;
+}
+
+.cp .cp_form > input[type='submit'] {
+    margin-top: 20px;
+    width: max(200px, 10vw);
+    font-family: "Montserrat", serif;
+    font-size: 1.2rem;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: #2262C6;
+    color: white;
+    cursor: pointer;
+    height: 50%;
+}
+
+.cp .cp_form > input[type='submit']:hover {
+
+    background-color: #3d73c6;
+
+}

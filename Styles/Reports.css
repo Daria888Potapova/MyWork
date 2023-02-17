@@ -1,0 +1,58 @@
+
+.reports{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding: 0 4vw 0 4vw;
+}
+
+.reports .reports_header{
+    color: #2262C6;
+}
+
+.reports .reports_form {
+    display: flex;
+    flex-direction: column;
+}
+.reports .reports_form .reports_horizontalElem{
+    display: flex;
+}
+
+
+.reports .reports_form .reports_horizontalElem> div{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    margin-right: 20px;
+    min-width: 200px;
+}
+.reports .reports_form .reports_horizontalElem> div > label{
+    margin-bottom: 5px;
+}
+
+.reports .reports_form .reports_horizontalElem> div > input, select{
+    font-family: "Montserrat", serif;
+    font-size: 1.2rem;
+    padding: 15px;
+    margin-right: 20px;
+    border: 1px solid #2262C6;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgba(0,0,0,.03);
+    cursor: pointer;
+}
+
+.reports .reports_form .reports_horizontalElem> div > select{
+    appearance: none;
+    overflow: hidden;
+    height: 100%;
+    background: url("../Images/svg/arrowDown.svg") no-repeat right 20px center;
+    padding-right: 50px !important;
+}
+
+.reports .reports_form .reports_report{
+    align-self: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+}
+
